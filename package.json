@@ -24,6 +24,9 @@
     "url": "https://github.com/ricealexander/boilerplate-2020/issues"
   },
   "homepage": "https://github.com/ricealexander/boilerplate-2020#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  },
   "devDependencies": {
     "autoprefixer": "^9.7.3",
     "cssnano": "^4.1.10",
