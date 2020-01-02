@@ -1,0 +1,26 @@
+{
+  "name": "boilerplate-2020",
+  "version": "1.0.0",
+  "description": "Front-End styles for 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ricealexander/boilerplate-2020.git"
+  },
+  "keywords": [
+    "CSS",
+    "front-end",
+    "framework",
+    "SASS",
+    "UI"
+  ],
+  "author": "Alexander Rice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricealexander/boilerplate-2020/issues"
+  },
+  "homepage": "https://github.com/ricealexander/boilerplate-2020#readme"
+}
