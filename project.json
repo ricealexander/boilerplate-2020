@@ -1,0 +1,8 @@
+{
+  "paths": {
+    "distribution": "dist"
+  },
+  "stylesheets": {
+    "dist/boilerplate.css": "source/base.scss"
+  }
+}
