@@ -3,6 +3,6 @@
     "distribution": "dist"
   },
   "stylesheets": {
-    "dist/boilerplate.css": "source/base.scss"
+    "dist/boilerplate.css": "scss/base.scss"
   }
 }
