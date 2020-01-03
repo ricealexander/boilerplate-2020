@@ -1,0 +1,58 @@
+@import 'variables';
+
+
+// font-family utilities
+// used as .text-family(serif)
+.text-family\(condensed\) {
+  font-family: $font-family-condensed;
+}
+.text-family\(display\) {
+  font-family: $font-family-display;
+}
+.text-family\(emoji\) {
+  font-family: $font-family-emoji;
+}
+.text-family\(monospace\) {
+  font-family: $font-family-monospace;
+}
+.text-family\(sans\) {
+  font-family: $font-family-sans;
+}
+.text-family\(script\) {
+  font-family: $font-family-script;
+}
+.text-family\(serif\) {
+  font-family: $font-family-serif;
+}
+
+
+// font-sizing utilities
+// used as .text-size(-2) or .text-size(+2) to increase or decrease text
+.text-size\(-4\) {
+  font-size: $typesize-9;
+}
+.text-size\(-3\) {
+  font-size: $typesize-8;
+}
+.text-size\(-2\) {
+  font-size: $typesize-7;
+}
+.text-size\(-1\) {
+  font-size: $typesize-6;
+}
+.text-size\(0\), .text-size\(\+0\), .text-size\(-0\) {
+  font-size: $typesize-5;
+}
+.text-size\(\+1\), .text-size\(1\) {
+  font-size: $typesize-4;
+}
+.text-size\(\+2\), .text-size\(2\) {
+  font-size: $typesize-3;
+}
+.text-size\(\+3\), .text-size\(3\) {
+  font-size: $typesize-2;
+}
+.text-size\(\+4\), .text-size\(4\) {
+  font-size: $typesize-1;
+}
+

@@ -1,0 +1,81 @@
+// SYSTEM FONTS
+// system font stacks default to system's native fonts
+// this results in quick and pretty defaults.
+
+// SYSTEM-UI SANS-SERIF FONT STACK
+// system-ui,              ** detect system font automatically
+// -apple-system,          ** Safari (Mac OS X and iOS) and Older Mac OS X
+// BlinkMacSystemFont,     ** Chrome<56 (Mac OS X)
+// "Segoe UI",             ** Windows and Windows Phone
+// "Roboto",               ** Android and Chrome OS
+// "Noto Sans"             ** KDE       - Linux environment
+// "Oxygen",               ** Older KDE - Linux environment
+// "Ubuntu",               ** Ubuntu    - Linux distribution
+// "Cantarell",            ** GNOME     - Linux environment
+// "Fira Sans",            ** Firefox
+// "Droid Sans",           ** Older Android
+// "Helvetica Neue",       ** Older Mac OS X
+// sans-serif,
+// "Apple Color Emoji",                  ** Mac OS X Emoji fallback
+// "Segoe UI Emoji", "Segoe UI Symbol";  ** Windows Emoji fallback
+
+// MONOSPACE SYSTEM FONT STACK
+// SFMono-Regular,         ** Mac OS X and iOS
+// Menlo,                  ** Older Mac OS X
+// Monaco,                 ** Older Mac OS X
+// Consolas,               ** Windows
+// "Liberation Mono",      ** Older Windows
+// "Courier New", Courier, ** Older Windows
+// monospace;
+//
+
+// sans-serif System Font
+$system-family-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", emoji;
+
+$system-family-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, $system-family-emoji;
+
+// monospace System Font
+$system-family-monospace: Mono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", Courier, monospace;
+
+// set preferred fonts
+$font-family-condensed: impact !default;
+$font-family-display:   fantasy !default;
+$font-family-emoji:     $system-family-emoji !default;
+$font-family-monospace: $system-family-monospace !default;
+$font-family-sans:      $system-family-sans !default;
+$font-family-script:    cursive !default;
+$font-family-serif:     serif !default;
+
+// Type Ratios - http://type-scale.com/ Scale: 1.200 - Minor Third
+$size-1: 2.074 !default;
+$size-2: 1.728 !default;
+$size-3: 1.440 !default;
+$size-4: 1.200 !default;
+$size-5: 1.000 !default;
+$size-6: 0.833 !default;
+$size-7: 0.694 !default;
+$size-8: 0.579 !default;
+$size-9: 0.482 !default;
+
+// root-relative sizes are preffered in most cases
+$typesize-1: #{$size-1}rem;
+$typesize-2: #{$size-2}rem;
+$typesize-3: #{$size-3}rem;
+$typesize-4: #{$size-4}rem;
+$typesize-5: #{$size-5}rem;
+$typesize-6: #{$size-6}rem;
+$typesize-7: #{$size-7}rem;
+$typesize-8: #{$size-8}rem;
+$typesize-9: #{$size-9}rem;
+
+// em units have some use-cases
+$typesize-relative-1: #{$size-1}em;
+$typesize-relative-2: #{$size-2}em;
+$typesize-relative-3: #{$size-3}em;
+$typesize-relative-4: #{$size-4}em;
+$typesize-relative-5: #{$size-5}em;
+$typesize-relative-6: #{$size-6}em;
+$typesize-relative-7: #{$size-7}em;
+$typesize-relative-8: #{$size-8}em;
+$typesize-relative-9: #{$size-9}em;
+
